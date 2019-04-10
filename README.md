@@ -3,35 +3,35 @@
 ## Conteúdo
 
   ### Análise de Desempenho
-    ** Gerador de Matriz
-    ** Simulador
+    * Gerador de Matriz
+    * Simulador
     
   ### Banco de Dados
-    ** Assistente de Cadastro
-    ** Sistema de Concessionária
+    * Assistente de Cadastro
+    * Sistema de Concessionária
     
   ### Grafos
-    ** Busca em profundidade
+    * Busca em profundidade
     
   ### Inteligência Artificial
-    ** Chat(Server/User)
-    ** Indivíduo e População
-    ** Perceptron
-    ** Relevância de dados
+    * Chat(Server/User)
+    * Indivíduo e População
+    * Perceptron
+    * Relevância de dados
     
   ### Laboratório de Estruturas Dinâmicas
-    ** Calculadora
-    ** Raízes de soluções quadráticas
-    ** Registro de estudantes
+    * Calculadora
+    * Raízes de soluções quadráticas
+    * Registro de estudantes
     
   ### Pesquisa Operacional
-    ** Mochila Binária
+    * Mochila Binária
    
   ### Redes de Computadores
-    ** Teste de rotas
-    ** Servidor DNS
+    * Teste de rotas
+    * Servidor DNS
     
   ### Sistemas Operacionais
-    ** Gerenciador de processos
-    ** Jantar fod filósofos (Semáforo)
-    ** Simulador de processos
+    * Gerenciador de processos
+    * Jantar fod filósofos (Semáforo)
+    * Simulador de processos
