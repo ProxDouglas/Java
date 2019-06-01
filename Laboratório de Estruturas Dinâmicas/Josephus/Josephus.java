@@ -1,6 +1,5 @@
 public class Josephus 
 {
-
     private int pessoas;
     private int count; 
     private No cabeca;
