@@ -5,8 +5,8 @@ class FilaCircular
 	
 	static class No 
 	{ 
-		int data; 
-		No link; 
+		int elem; 
+		No pont; 
 	} 
 	
 	static class Fila 
@@ -17,16 +17,16 @@ class FilaCircular
 	static void adicionarElemento(Fila q, int valor) 
 	{ 
 		No temp = new No(); 
-		temp.data = valor; 
+		temp.elem = valor; 
 
 		if (q.inicio == null) {
 			q.inicio = temp; 
 		} else {
-			q.fim.link = temp; 
+			q.fim.pont = temp; 
 		}
 		
 		q.fim = temp; 
-		q.fim.link = q.inicio; 
+		q.fim.pont = q.inicio; 
 	} 
 	
 	static int deletarElemento(Fila q) 
@@ -38,14 +38,14 @@ class FilaCircular
 			return Integer.MIN_VALUE; 
 		} 
 		if (q.inicio == q.fim) { 
-			valor = q.inicio.data; 
+			valor = q.inicio.elem; 
 			q.inicio = null; 
 			q.fim = null; 
 		} else { 
 			No temp = q.inicio; 
-			valor = temp.data; 
-			q.inicio = q.inicio.link; 
-			q.fim.link= q.inicio; 
+			valor = temp.elem; 
+			q.inicio = q.inicio.pont;
+			q.fim.pont = q.inicio; 
 		} 
 		
 		return valor; 
@@ -57,12 +57,12 @@ class FilaCircular
 
 		System.out.printf("Fila\n"); 
 
-		while (temp.link != q.inicio) { 
-			System.out.printf("[%d]->", temp.data); 
-			temp = temp.link; 
+		while (temp.pont != q.inicio) { 
+			System.out.printf("[%d]->", temp.elem); 
+			temp = temp.pont; 
 		} 
 
-		System.out.printf("[%d]\n\n", temp.data); 
+		System.out.printf("[%d]\n\n", temp.elem); 
 	} 
 	
 	public static void main(String args[]) 

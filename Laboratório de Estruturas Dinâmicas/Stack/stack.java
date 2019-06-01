@@ -6,8 +6,8 @@ class Pilha
 
 	private class No 
 	{ 
-		int data;
-		No link;
+		int elem;
+		No pont;
 	} 
 
 	Pilha() 
@@ -24,8 +24,8 @@ class Pilha
 			return; 
 		} 
 
-		temp.data = x; 
-		temp.link = heap; 
+		temp.elem = x; 
+		temp.pont = heap; 
 		heap = temp; 
 	} 
 
@@ -37,7 +37,7 @@ class Pilha
 	public int mostrarHeap() 
 	{ 
 		if (!estaVazia()) { 
-			return heap.data; 
+			return heap.elem; 
 		} 
 		else { 
 			System.out.println("Pilha vazia!"); 
@@ -52,7 +52,7 @@ class Pilha
 			return; 
 		} 
 
-		heap = (heap).link; 
+		heap = (heap).pont; 
 	} 
 
 	public void mostrar() 
@@ -65,8 +65,8 @@ class Pilha
 			No temp = heap; 
 			
 			while (temp != null) { 
-				System.out.printf("|%d|\n", temp.data); 
-				temp = temp.link; 
+				System.out.printf("|%d|\n", temp.elem); 
+				temp = temp.pont; 
 			} 
 		} 
 	}
