@@ -36,3 +36,6 @@
     Jantar fod filósofos (Semáforo)
     Simulador de processos
 ***
+  ### Computação Gráfica e Processamento de Imagens
+    Koch's Snowflake (Recursividade de Retas Fractais)
+***
