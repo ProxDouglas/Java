@@ -68,24 +68,21 @@ public class CirculosRetas{
         DesenharLinha(gc, x-75, y-45, x-75, y+45);
         DesenharLinha(gc, x+75, y-45, x+75, y+45);
 
+        DesenharLinha(gc, x, y-95, x, y+85);
         DesenharLinha(gc, x-75, y-45, x+75, y+45);
         DesenharLinha(gc, x+75, y-45, x-75, y+45);
         DesenharLinha(gc, x-50, y-5, x+50, y-5);
-        DesenharLinha(gc, x-75, y-45, x, y+85);
 
+        DesenharLinha(gc, x-75, y-45, x, y+85);
         DesenharLinha(gc, x, y+85, x+75, y-45);
         DesenharLinha(gc, x-75, y+45, x, y-95);
         DesenharLinha(gc, x+75, y+45, x, y-95);
+
         DesenharLinha(gc, x-75, y-45, x, y-95);
-
         DesenharLinha(gc, x+75, y-45, x, y-95);
-        DesenharLinha(gc, x-75, y-45, x+75, y-45);
-        DesenharLinha(gc, x-75, y-45, x+75, y-45);
-        DesenharLinha(gc, x-75, y-45, x+75, y-45);
-        DesenharLinha(gc, x-75, y-45, x+75, y-45);
-
         DesenharLinha(gc, x-75, y+45, x, y+85);
         DesenharLinha(gc, x+75, y+45, x, y+85);
+
     }
 
     public void DesenharCirculo(int x, int y, GraphicsContext gc )
